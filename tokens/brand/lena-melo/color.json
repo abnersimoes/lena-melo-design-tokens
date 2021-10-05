@@ -3,16 +3,22 @@
     "neutral": {
       "low": {
         "pure": { "value": "#000000" },
-        "light": { "value": "#A3A3A3" },
-        "medium": { "value": "#666666" },
-        "dark": { "value": "#292929" }
+        "light": { "value": "#B0727C" },
+        "medium": { "value": "#7B5158" },
+        "dark": { "value": "#5B4347" }
       },
       "high": {
         "pure": { "value": "#FFFFFF" },
-        "light": { "value": "#F5F5F5" },
-        "medium": { "value": "#E0E0E0" },
-        "dark": { "value": "#CCCCCC" }
+        "light": { "value": "#FFF9F9" },
+        "medium": { "value": "#F9E7E6" },
+        "dark": { "value": "#FFD8D6" }
       }
+    },
+    "primary": {
+      "pure": { "value": "#F3758A" },
+      "light": { "value": "#FFA59F" },
+      "medium": { "value": "#DD6F82" },
+      "dark": { "value": "#AF5E6C" }
     }
   }
 }
