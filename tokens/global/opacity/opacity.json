@@ -1,0 +1,13 @@
+{
+  "opacity": {
+    "level": {
+      "transparent": { "value": "0" },
+      "very-light": { "value": "0.1" },
+      "light": { "value": "0.25" },
+      "medium": { "value": "0.5" },
+      "heavy": { "value": "0.75" },
+      "very-heavy": { "value": "0.9" },
+      "opaque": { "value": "1" }
+    }
+  }
+}

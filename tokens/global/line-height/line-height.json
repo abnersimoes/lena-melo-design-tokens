@@ -1,0 +1,14 @@
+{
+  "line-height": {
+    "size": {
+      "default": { "value": "{line-height.size.xxs.value}" },
+      "xxs": { "value": "100%" },
+      "xs": { "value": "115%" },
+      "sm": { "value": "120%" },
+      "md": { "value": "133%" },
+      "lg": { "value": "150%" },
+      "xl": { "value": "170%" },
+      "xxl": { "value": "200%" }
+    }
+  }
+}
