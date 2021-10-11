@@ -1,0 +1,66 @@
+{
+  "asset": {
+    "font": {
+      "light": {
+        "name": {
+          "value": "Mulish"
+        },
+        "style": {
+          "value": "normal"
+        },
+        "weight": {
+          "value": "300"
+        },
+        "woff2": {
+          "value": "assets/fonts/Mulish-Light.woff2"
+        },
+        "woff": {
+          "value": "assets/fonts/Mulish-Light.woff"
+        },
+        "ttf": {
+          "value": "assets/fonts/Mulish-Light.ttf"
+        }
+      },
+      "regular": {
+        "name": {
+          "value": "Mulish"
+        },
+        "style": {
+          "value": "normal"
+        },
+        "weight": {
+          "value": "400"
+        },
+        "woff2": {
+          "value": "assets/fonts/Mulish-Regular.woff2"
+        },
+        "woff": {
+          "value": "assets/fonts/Mulish-Regular.woff"
+        },
+        "ttf": {
+          "value": "assets/fonts/Mulish-Regular.ttf"
+        }
+      },
+      "bold": {
+        "name": {
+          "value": "Mulish"
+        },
+        "style": {
+          "value": "normal"
+        },
+        "weight": {
+          "value": "700"
+        },
+        "woff2": {
+          "value": "assets/fonts/Mulish-Bold.woff2"
+        },
+        "woff": {
+          "value": "assets/fonts/Mulish-Bold.woff"
+        },
+        "ttf": {
+          "value": "assets/fonts/Mulish-Bold.ttf"
+        }
+      }
+    }
+  }
+}
