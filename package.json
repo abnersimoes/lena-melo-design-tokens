@@ -1,0 +1,19 @@
+{
+  "name": "lena-melo-design-tokens",
+  "version": "1.0.0",
+  "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abnersimoes/lena-melo-design-tokens.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abnersimoes/lena-melo-design-tokens/issues"
+  },
+  "homepage": "https://github.com/abnersimoes/lena-melo-design-tokens#readme"
+}
