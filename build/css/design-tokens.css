@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 11 Oct 2021 18:49:55 GMT
+ * Generated on Thu, 14 Oct 2021 14:40:36 GMT
  */
 
 :root {
@@ -16,6 +16,18 @@
   --color-primary-light: #ffa59f;
   --color-primary-medium: #dd6f82;
   --color-primary-dark: #af5e6c;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-size-xxxs: 0.75;
+  --font-size-xxs: 0.875;
+  --font-size-xs: 1;
+  --font-size-sm: 1.25;
+  --font-size-md: 1.5;
+  --font-size-lg: 2;
+  --font-size-xl: 2.5;
+  --font-size-xxl: 3;
+  --font-size-xxxl: 4;
   --asset-font-light-name: "Mulish";
   --asset-font-light-style: "normal";
   --asset-font-light-weight: "300";
@@ -45,33 +57,6 @@
   --border-radius-lg: 1.5rem;
   --border-radius-pill: 500px;
   --border-radius-circular: 50%;
-  --size-font-xxxs: 0.75rem;
-  --size-font-xxs: 0.875rem;
-  --size-font-xs: 1rem;
-  --size-font-sm: 1.25rem;
-  --size-font-md: 1.5rem;
-  --size-font-lg: 2rem;
-  --size-font-xl: 2.5rem;
-  --size-font-xxl: 3rem;
-  --size-font-xxxl: 4rem;
-  --size-spacing-inset-xxxs: 0.25rem;
-  --size-spacing-inset-xxs: 0.5rem;
-  --size-spacing-inset-xs: 1rem;
-  --size-spacing-inset-sm: 1.5rem;
-  --size-spacing-inset-md: 2rem;
-  --size-spacing-inset-lg: 2.5rem;
-  --size-spacing-inset-xl: 3rem;
-  --size-spacing-inset-xxl: 3.5rem;
-  --size-spacing-inset-xxxl: 4rem;
-  --size-spacing-outset-xxxs: 0.25rem;
-  --size-spacing-outset-xxs: 0.5rem;
-  --size-spacing-outset-xs: 1rem;
-  --size-spacing-outset-sm: 1.5rem;
-  --size-spacing-outset-md: 2rem;
-  --size-spacing-outset-lg: 2.5rem;
-  --size-spacing-outset-xl: 3rem;
-  --size-spacing-outset-xxl: 3.5rem;
-  --size-spacing-outset-xxxl: 4rem;
   --line-height-size-default: 100%;
   --line-height-size-xxs: 100%;
   --line-height-size-xs: 115%;
@@ -91,10 +76,28 @@
   --shadow-level-light: 0 0.5rem 1.5rem;
   --shadow-level-heavy: 0 1rem 2rem;
   --shadow-level-very-heavy: 0 1rem 3rem;
-  --duration-level-very-fast: 0.075s;
-  --duration-level-fast: 0.1s;
-  --duration-level-little-fast: 0.15s;
-  --duration-level-little-slow: 0.25s;
-  --duration-level-slow: 0.5s;
-  --duration-level-very-slow: 0.75s;
+  --spacing-inset-xxxs: 0.25rem;
+  --spacing-inset-xxs: 0.5rem;
+  --spacing-inset-xs: 1rem;
+  --spacing-inset-sm: 1.5rem;
+  --spacing-inset-md: 2rem;
+  --spacing-inset-lg: 2.5rem;
+  --spacing-inset-xl: 3rem;
+  --spacing-inset-xxl: 3.5rem;
+  --spacing-inset-xxxl: 4rem;
+  --spacing-outset-xxxs: 0.25rem;
+  --spacing-outset-xxs: 0.5rem;
+  --spacing-outset-xs: 1rem;
+  --spacing-outset-sm: 1.5rem;
+  --spacing-outset-md: 2rem;
+  --spacing-outset-lg: 2.5rem;
+  --spacing-outset-xl: 3rem;
+  --spacing-outset-xxl: 3.5rem;
+  --spacing-outset-xxxl: 4rem;
+  --motion-duration-level-very-fast: 0.075s;
+  --motion-duration-level-fast: 0.1s;
+  --motion-duration-level-little-fast: 0.15s;
+  --motion-duration-level-little-slow: 0.25s;
+  --motion-duration-level-slow: 0.5s;
+  --motion-duration-level-very-slow: 0.75s;
 }

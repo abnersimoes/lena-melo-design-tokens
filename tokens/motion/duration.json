@@ -1,12 +1,14 @@
 {
-  "duration": {
-    "level": {
-      "very-fast": { "value": "0.075s" },
-      "fast": { "value": "0.1s" },
-      "little-fast": { "value": "0.15s" },
-      "little-slow": { "value": "0.25s" },
-      "slow": { "value": "0.5s" },
-      "very-slow": { "value": "0.75s" }
+  "motion": {
+    "duration": {
+      "level": {
+        "very-fast": { "value": "0.075s" },
+        "fast": { "value": "0.1s" },
+        "little-fast": { "value": "0.15s" },
+        "little-slow": { "value": "0.25s" },
+        "slow": { "value": "0.5s" },
+        "very-slow": { "value": "0.75s" }
+      }
     }
   }
 }

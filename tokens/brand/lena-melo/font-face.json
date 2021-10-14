@@ -1,4 +1,11 @@
 {
+  "font": {
+    "weight": {
+      "light": { "value": "{asset.font.light.weight.value}" },
+      "regular": { "value": "{asset.font.regular.weight.value}" },
+      "bold": { "value": "{asset.font.bold.weight.value}" }
+    }
+  },
   "asset": {
     "font": {
       "light": {
