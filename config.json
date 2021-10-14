@@ -1,6 +1,16 @@
 {
   "source": ["tokens/**/*.json"],
   "platforms": {
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "build/js/",
+      "files": [
+        {
+          "destination": "design-tokens.js",
+          "format": "javascript/es6"
+        }
+      ]
+    },
     "css": {
       "transformGroup": "css",
       "buildPath": "build/css/",
