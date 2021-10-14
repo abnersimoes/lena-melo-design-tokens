@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 14 Oct 2021 14:40:36 GMT
+ * Generated on Thu, 14 Oct 2021 17:40:14 GMT
  */
 
 :root {
@@ -19,15 +19,15 @@
   --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
-  --font-size-xxxs: 0.75;
-  --font-size-xxs: 0.875;
-  --font-size-xs: 1;
-  --font-size-sm: 1.25;
-  --font-size-md: 1.5;
-  --font-size-lg: 2;
-  --font-size-xl: 2.5;
-  --font-size-xxl: 3;
-  --font-size-xxxl: 4;
+  --font-size-xxxs: 0.75rem;
+  --font-size-xxs: 0.875rem;
+  --font-size-xs: 1rem;
+  --font-size-sm: 1.25rem;
+  --font-size-md: 1.5rem;
+  --font-size-lg: 2rem;
+  --font-size-xl: 2.5rem;
+  --font-size-xxl: 3rem;
+  --font-size-xxxl: 4rem;
   --asset-font-light-name: "Mulish";
   --asset-font-light-style: "normal";
   --asset-font-light-weight: "300";
