@@ -4,12 +4,11 @@
   "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
   "main": "index.js",
   "scripts": {
-    "build:static:css": "cp src/static/css/* build/css/",
-    "build:assets:fonts": "cp src/assets/fonts/* build/assets/fonts",
-    "build:assets:svg": "cp src/assets/svg/* build/assets/svg",
-    "build:assets:png": "cp src/assets/png/* build/assets/png",
+    "build:assets": "mkdir build && cp -r tokens/assets build/assets",
+    "build:static": "cp tokens/static/css/* build/css/",
     "build:tokens": "style-dictionary build",
-    "build": "run-s build:static:* build:assets:* build:tokens",
+    "build": "run-s clean build:assets build:tokens build:static",
+    "clean": "rm -rf build",
     "test": "echo \"No test specified\""
   },
   "repository": {
