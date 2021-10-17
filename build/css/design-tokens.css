@@ -1,11 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Thu, 14 Oct 2021 19:06:24 GMT
+ * Generated on Sun, 17 Oct 2021 18:39:55 GMT
  */
 
 :root {
   --color-neutral-low-pure: #000000;
-  --color-neutral-low-light: #b0727c;
+  --color-neutral-low-light: #be858f;
   --color-neutral-low-medium: #7b5158;
   --color-neutral-low-dark: #5b4347;
   --color-neutral-high-pure: #ffffff;
@@ -46,6 +46,18 @@
   --asset-font-bold-woff2: "assets/fonts/Mulish-Bold.woff2";
   --asset-font-bold-woff: "assets/fonts/Mulish-Bold.woff";
   --asset-font-bold-ttf: "assets/fonts/Mulish-Bold.ttf";
+  --asset-font-icon-regular-name: "Material Icons";
+  --asset-font-icon-regular-style: "normal";
+  --asset-font-icon-regular-weight: "400";
+  --asset-font-icon-regular-ttf: "assets/fonts/MaterialIcons-Regular.ttf";
+  --asset-font-icon-outline-name: "Material Icons Outline";
+  --asset-font-icon-outline-style: "normal";
+  --asset-font-icon-outline-weight: "400";
+  --asset-font-icon-outline-otf: "assets/fonts/MaterialIconsOutlined-Regular.otf";
+  --asset-font-icon-round-name: "Material Icons Round";
+  --asset-font-icon-round-style: "normal";
+  --asset-font-icon-round-weight: "400";
+  --asset-font-icon-round-otf: "assets/fonts/MaterialIconsRound-Regular.otf";
   --border-width-none: 0;
   --border-width-hairline: 0.0625rem;
   --border-width-thin: 0.125rem;

@@ -1,0 +1,48 @@
+{
+  "asset": {
+    "font": {
+      "icon-regular": {
+        "name": {
+          "value": "Material Icons"
+        },
+        "style": {
+          "value": "normal"
+        },
+        "weight": {
+          "value": "400"
+        },
+        "ttf": {
+          "value": "assets/fonts/MaterialIcons-Regular.ttf"
+        }
+      },
+      "icon-outline": {
+        "name": {
+          "value": "Material Icons Outline"
+        },
+        "style": {
+          "value": "normal"
+        },
+        "weight": {
+          "value": "400"
+        },
+        "otf": {
+          "value": "assets/fonts/MaterialIconsOutlined-Regular.otf"
+        }
+      },
+      "icon-round": {
+        "name": {
+          "value": "Material Icons Round"
+        },
+        "style": {
+          "value": "normal"
+        },
+        "weight": {
+          "value": "400"
+        },
+        "otf": {
+          "value": "assets/fonts/MaterialIconsRound-Regular.otf"
+        }
+      }
+    }
+  }
+}

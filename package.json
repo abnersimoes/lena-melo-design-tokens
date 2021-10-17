@@ -4,7 +4,12 @@
   "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
   "main": "index.js",
   "scripts": {
-    "build": "cp src/css/* build/css/ & style-dictionary build",
+    "build:static:css": "cp src/static/css/* build/css/",
+    "build:assets:fonts": "cp src/assets/fonts/* build/assets/fonts",
+    "build:assets:svg": "cp src/assets/svg/* build/assets/svg",
+    "build:assets:png": "cp src/assets/png/* build/assets/png",
+    "build:tokens": "style-dictionary build",
+    "build": "run-s build:static:* build:assets:* build:tokens",
     "test": "echo \"No test specified\""
   },
   "repository": {
@@ -16,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/abnersimoes/lena-melo-design-tokens/issues"
   },
-  "homepage": "https://github.com/abnersimoes/lena-melo-design-tokens#readme"
+  "homepage": "https://github.com/abnersimoes/lena-melo-design-tokens#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "style-dictionary": "^3.0.3"
+  }
 }

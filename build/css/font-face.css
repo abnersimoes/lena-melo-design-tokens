@@ -26,3 +26,24 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: "Material Icons";
+  src: url('../assets/fonts/MaterialIcons-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Material Icons Outline";
+  src: url('../assets/fonts/MaterialIconsOutlined-Regular.otf') format('otf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Material Icons Round";
+  src: url('../assets/fonts/MaterialIconsRound-Regular.otf') format('otf');
+  font-style: normal;
+  font-weight: 400;
+}
+

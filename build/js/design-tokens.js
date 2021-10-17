@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Thu, 14 Oct 2021 19:06:24 GMT
+ * Generated on Sun, 17 Oct 2021 18:39:55 GMT
  */
 
 export const ColorNeutralLowPure = "#000000";
-export const ColorNeutralLowLight = "#b0727c";
+export const ColorNeutralLowLight = "#be858f";
 export const ColorNeutralLowMedium = "#7b5158";
 export const ColorNeutralLowDark = "#5b4347";
 export const ColorNeutralHighPure = "#ffffff";
@@ -45,6 +45,18 @@ export const AssetFontBoldWeight = "700";
 export const AssetFontBoldWoff2 = "assets/fonts/Mulish-Bold.woff2";
 export const AssetFontBoldWoff = "assets/fonts/Mulish-Bold.woff";
 export const AssetFontBoldTtf = "assets/fonts/Mulish-Bold.ttf";
+export const AssetFontIconRegularName = "Material Icons";
+export const AssetFontIconRegularStyle = "normal";
+export const AssetFontIconRegularWeight = "400";
+export const AssetFontIconRegularTtf = "assets/fonts/MaterialIcons-Regular.ttf";
+export const AssetFontIconOutlineName = "Material Icons Outline";
+export const AssetFontIconOutlineStyle = "normal";
+export const AssetFontIconOutlineWeight = "400";
+export const AssetFontIconOutlineOtf = "assets/fonts/MaterialIconsOutlined-Regular.otf";
+export const AssetFontIconRoundName = "Material Icons Round";
+export const AssetFontIconRoundStyle = "normal";
+export const AssetFontIconRoundWeight = "400";
+export const AssetFontIconRoundOtf = "assets/fonts/MaterialIconsRound-Regular.otf";
 export const BorderWidthNone = "0";
 export const BorderWidthHairline = "0.0625rem";
 export const BorderWidthThin = "0.125rem";

@@ -3,7 +3,7 @@
     "neutral": {
       "low": {
         "pure": { "value": "#000000" },
-        "light": { "value": "#B0727C" },
+        "light": { "value": "#BE858F" },
         "medium": { "value": "#7B5158" },
         "dark": { "value": "#5B4347" }
       },
