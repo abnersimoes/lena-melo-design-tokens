@@ -3,8 +3,8 @@
     "neutral": {
       "low": {
         "pure": { "value": "#000000" },
-        "light": { "value": "#BE858F" },
-        "medium": { "value": "#7B5158" },
+        "light": { "value": "#bb5364" },
+        "medium": { "value": "#af5e6c" },
         "dark": { "value": "#5B4347" }
       },
       "high": {
@@ -17,8 +17,8 @@
     "primary": {
       "pure": { "value": "#F3758A" },
       "light": { "value": "#FFA59F" },
-      "medium": { "value": "#DD6F82" },
-      "dark": { "value": "#AF5E6C" }
+      "medium": { "value": "#e05269" },
+      "dark": { "value": "#bb4054" }
     }
   }
 }
