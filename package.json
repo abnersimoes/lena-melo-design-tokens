@@ -2,7 +2,7 @@
   "name": "lena-melo-design-tokens",
   "version": "1.0.14",
   "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
-  "main": "index.js",
+  "main": "build/js/index.js",
   "scripts": {
     "build:tokens": "style-dictionary build",
     "build:assets": "cp -r tokens/assets build/assets",
