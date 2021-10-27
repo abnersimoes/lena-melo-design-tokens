@@ -2,13 +2,16 @@
   "name": "lena-melo-design-tokens",
   "version": "1.0.15",
   "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
-  "main": "build/js/index.js",
+  "main": "index.js",
   "scripts": {
+    "clean": "rm -rf build",
+    "prebuild": "yarn clean",
     "build:tokens": "style-dictionary build",
     "build:assets": "cp -r tokens/assets build/assets",
     "build:css": "cp -r tokens/static/css/* build/css/ && cat build/css/* > build/css/styles.css",
-    "build": "run-s clean build:tokens build:assets build:css",
-    "clean": "rm -rf build",
+    "build": "run-s build:tokens build:assets build:css",
+    "postbuild": "cp package.json build/package.json",
+    "deploy": "np --contents ./build",
     "test": "echo \"No test specified\""
   },
   "repository": {
@@ -22,6 +25,7 @@
   },
   "homepage": "https://github.com/abnersimoes/lena-melo-design-tokens#readme",
   "devDependencies": {
+    "np": "^7.5.0",
     "npm-run-all": "^4.1.5",
     "style-dictionary": "^3.0.3"
   }
