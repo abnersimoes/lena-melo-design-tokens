@@ -1,0 +1,7 @@
+{
+  "breakpoint": {
+    "mobile": { "value": "30rem" },
+    "tablet": { "value": "37.5rem" },
+    "desktop": { "value": "56.25rem" }
+  }
+}
