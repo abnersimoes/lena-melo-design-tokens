@@ -10,8 +10,6 @@
     "build:assets": "cp -r tokens/assets build/assets",
     "build:css": "cp -r tokens/static/css/* build/css/ && cat build/css/* > build/css/styles.css",
     "build": "run-s build:tokens build:assets build:css",
-    "postbuild": "cp package.json build/package.json",
-    "deploy": "np --contents ./build",
     "test": "echo \"No test specified\""
   },
   "repository": {
