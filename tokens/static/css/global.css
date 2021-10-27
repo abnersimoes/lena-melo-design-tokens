@@ -5,3 +5,13 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+body {
+  font-family: var(--asset-font-regular-name), Arial, sans-serif;
+  font-weight: var(--asset-font-regular-weight);
+  color: var(--color-neutral-low-medium);
+}
+
+a {
+  color: var(--color-primary-medium);
+}
