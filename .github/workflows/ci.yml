@@ -23,21 +23,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: "https://registry.npmjs.org"
-      # - name: Cleanup
-      #   run: yarn clean
       - name: Installing dependencies
-        # echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
         run: |
           yarn install
-      # - name: Running tests
-      #   run: |
-      #     yarn test
       - name: Build
         run: |
           yarn build
       - name: Setup Git
-        # git fetch
-        # git pull
         run: |
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
@@ -49,8 +41,6 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           PACKAGE_NEXT_VERSION: npm info lena-melo-design-tokens version
-        # git add .
-        # git commit -am "Publishing version $PACKAGE_NEXT_VERSION"
         run: |
           echo PACKAGE_NEXT_VERSION
           npm publish --tag=next
