@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   build:
@@ -30,9 +33,13 @@ jobs:
       - name: Build
         run: |
           yarn build
-      - name: Updating package version
+      - name: Setup Git
+        run: |
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+      - name: Bumping version
         run: |
           npm version patch
-      - name: Publishing package
+      - name: Publishing
         run: |
           npm publish
