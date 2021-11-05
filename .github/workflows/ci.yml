@@ -37,6 +37,10 @@ jobs:
         run: |
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          echo $GITHUB_ACTOR
+          git add .
+          git commit
+          git push "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY"
       - name: Bumping version
         run: |
           npm version patch
