@@ -26,6 +26,7 @@ jobs:
       #   run: yarn clean
       - name: Installing dependencies
         run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
           yarn install
       # - name: Running tests
       #   run: |
