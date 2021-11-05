@@ -22,8 +22,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - env:
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       # - name: Cleanup
       #   run: yarn clean
       - name: Installing dependencies
@@ -44,5 +42,7 @@ jobs:
         run: |
           npm version patch
       - name: Publishing
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           npm publish
