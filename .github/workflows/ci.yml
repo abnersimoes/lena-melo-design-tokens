@@ -17,16 +17,17 @@ jobs:
         node-version: [15.x]
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
+          registry-url: "https://registry.npmjs.org"
       # - name: Cleanup
       #   run: yarn clean
       - name: Installing dependencies
+        # echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
         run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
           yarn install
       # - name: Running tests
       #   run: |
@@ -34,16 +35,24 @@ jobs:
       - name: Build
         run: |
           yarn build
-      - name: Setup Git
-        run: |
-          git config user.name "$GITHUB_ACTOR"
-          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git stash
+      # - name: Setup Git
+      #   run: |
+      #     git config user.name "$GITHUB_ACTOR"
+      #     git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+      # git fetch
+      # git pull
+      # git stash
       - name: Bumping version
         run: |
           npm version patch
       - name: Publishing
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          PACKAGE_NEXT_VERSION: npm info lena-melo-design-tokens version
+        # git add .
+        # git commit -am "Publishing version $PACKAGE_NEXT_VERSION"
         run: |
-          npm publish
+          echo PACKAGE_NEXT_VERSION
+          npm publish --tag=next
+          git push origin --all
+          git push origin --tags
